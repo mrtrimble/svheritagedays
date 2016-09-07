@@ -904,7 +904,7 @@ nav{
     position:relative;
     z-index:100;
      @include mq($from: mobile) {
-            height:490px;
+            height:300px;
          }
      @include mq(tablet, desktop) {
             height:70px;
@@ -922,7 +922,7 @@ nav{
         margin:0;
         margin: 0 auto;
         @include mq($from: mobile) {
-            height:490px;
+            height:300px;
             max-width:640px;
             flex-direction:column;
          }
@@ -989,8 +989,12 @@ nav{
     align-items:center;
     img{
         border:0;
-        width:400px;
-        height:300px;
+        width:300px;
+        height:200px;
+        @include mq($from: tablet) {
+            width:400px;
+            height:300px;
+        }
     }
 }
 
@@ -1249,11 +1253,11 @@ nav{
         font-size:16px;
         padding:0;
         margin:0;
-        line-height:0;
+        line-height:20px;
         display:flex;
         align-items:center;
         // background:blue;
-        height:15px;
+        min-height:15px;
         font-weight:bold;
     }
     p{
