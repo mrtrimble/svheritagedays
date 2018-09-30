@@ -9,32 +9,35 @@
   <meta name="keywords" content="Shermans Valley Heritage Days, SVHD, Sherman's Valley Heritage Days, Blain PA, Sherman's Valley">
   <link rel="stylesheet" href="css/style.css" type="text/css">
     <style>
-      .vue-overlay{
-        width:100vw;
-        height:100vh;
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        background:transparentize(#333, .6);
-        position:absolute;
-        top:0;
+      .vue-overlay {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(51, 51, 51, 0.4);
+        position: absolute;
+        top: 0;
       }
-      .vue-alert{
-        width:50%;
-        border:5px #266d2a solid;
-        padding:18px;
-        background:white;
-        button{
-          background:#266d2a;
-          color:#f6f4d5;
-          padding:15px;
+
+      .vue-alert {
+        width: 50%;
+        border: 5px #266d2a solid;
+        padding: 18px;
+        background: white;
+      }
+      .vue-alert button {
+        background: #266d2a;
+        color: #f6f4d5;
+        padding: 15px;
+      }
+
+      @media screen and (max-width: 600px) {
+        .vue-alert {
+          width: 75%;
         }
       }
-      @media screen and (max-width:600px){
-        .vue-alert{
-          width:75%;
-        }
-      }
+
     </style>
   </head>
   <body>
