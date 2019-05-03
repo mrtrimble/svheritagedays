@@ -8,58 +8,8 @@
   <meta name="description" content="Sherman's Valley Heritage Days, Inc. is a non-profit organization which was founded in 1986.  Its purpose is to demonstrate and preserve the role of antique farm equipment, vehicles, hand-craftsmanship, and the heritage of the way things were done in the Good Old Days, and to educate the public about preserving items and practices from the past.">
   <meta name="keywords" content="Shermans Valley Heritage Days, SVHD, Sherman's Valley Heritage Days, Blain PA, Sherman's Valley">
   <link rel="stylesheet" href="css/style.css" type="text/css">
-    <style>
-      #app{
-        position:absolute;
-        height:100vh;
-        width:100vw;
-        top:0;
-      }
-      .vue-overlay {
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: rgba(51, 51, 51, 0.4);
-        position: fixed;
-        top: 0;
-        z-index:10000;
-      }
-
-      .vue-alert {
-        width: 50%;
-        border: 5px #266d2a solid;
-        padding: 18px;
-        background: white;
-      }
-      .vue-alert button {
-        background: #266d2a;
-        color: #f6f4d5;
-        padding: 15px;
-      }
-
-      @media screen and (max-width: 600px) {
-        .vue-alert {
-          width: 75%;
-        }
-      }
-
-    </style>
   </head>
   <body>
-    <div id="app">
-      <div class="vue-overlay" v-if="acknowledged">
-        <div class="vue-alert">
-          <h2>Important Notice</h2>
-          <p>We regret to inform everyone that Sherman's Valley Heritage Days is cancelled this year due to the conditions of the grounds.</p>
-          <p>We appreciate your understanding and we hope to see you at our show next year!</p>
-          <p>If you are a vendor or camper, we will be reaching out to see if you would like a refund or a credit for next year.</p>
-          <p>Thank you.</p>
-          <button @click="acknowledge">I understand</button>
-        </div>
-      </div>
-    </div>
     <div class="background-image">
       <img src="img/header-banner.jpg" />
     </div>
@@ -180,19 +130,5 @@
       </footer>
       
   <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js" type="text/javascript"></script>
-   <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js'></script>
-    <script >
-      new Vue({
-        el:'#app',
-        data:{
-          acknowledged: true
-        },
-        methods:{
-          acknowledge(){
-            this.acknowledged = !this.acknowledged
-          }
-        }
-      })
-    </script>
   </body>
 </html>
