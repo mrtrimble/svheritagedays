@@ -1,75 +1,74 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Home | Sherman's Valley Heritage Days</title>
-  <meta name="description" content="Sherman's Valley Heritage Days, Inc. is a non-profit organization which was founded in 1986.  Its purpose is to demonstrate and preserve the role of antique farm equipment, vehicles, hand-craftsmanship, and the heritage of the way things were done in the Good Old Days, and to educate the public about preserving items and practices from the past.">
-  <meta name="keywords" content="Shermans Valley Heritage Days, SVHD, Sherman's Valley Heritage Days, Blain PA, Sherman's Valley">
-  <link rel="stylesheet" href="css/style.css" type="text/css">
+    <meta
+      name="description"
+      content="Sherman's Valley Heritage Days, Inc. is a non-profit organization which was founded in 1986.  Its purpose is to demonstrate and preserve the role of antique farm equipment, vehicles, hand-craftsmanship, and the heritage of the way things were done in the Good Old Days, and to educate the public about preserving items and practices from the past."
+    />
+    <meta name="keywords" content="Shermans Valley Heritage Days, SVHD, Sherman's Valley Heritage Days, Blain PA, Sherman's Valley" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
     <style>
       .modal {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-          justify-content: center;
-  position: fixed;
-  z-index: 1000;
-  height: 100vh;
-  width: 100vw;
-  top: 0;
-  left: 0;
-}
-.modal__overlay {
-  display: -webkit-box;
-  display: flex;
-  position: absolute;
-  height: 100vh;
-  width: 100vw;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 10;
-}
-.modal__box {
-  position: absolute;
-  z-index: 20;
-  width: 90%;
-  max-width: 500px;
-  background: white;
-  padding: 1em;
-}
-.modal__content{
-  font-size: .875em;
- }
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        position: fixed;
+        z-index: 1000;
+        height: 100vh;
+        width: 100vw;
+        top: 0;
+        left: 0;
+      }
+      .modal__overlay {
+        display: -webkit-box;
+        display: flex;
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 10;
+      }
+      .modal__box {
+        position: absolute;
+        z-index: 20;
+        width: 90%;
+        max-width: 500px;
+        background: white;
+        padding: 1em;
+      }
+      .modal__content {
+        font-size: 0.875em;
+      }
 
-.modal__btn {
-  cursor: pointer;
-  background: #266d2a;
-  border: 0;
-  padding: .5em 1em;
-  border-radius: 5px;
-  color: white;
-  -webkit-transition: .2s ease;
-  transition: .2s ease;
-}
-.modal__btn:hover {
-  background: #19481C;
-}
-.modal--hidden {
-  display: none;
-}
-
-
+      .modal__btn {
+        cursor: pointer;
+        background: #266d2a;
+        border: 0;
+        padding: 0.5em 1em;
+        border-radius: 5px;
+        color: white;
+        -webkit-transition: 0.2s ease;
+        transition: 0.2s ease;
+      }
+      .modal__btn:hover {
+        background: #19481c;
+      }
+      .modal--hidden {
+        display: none;
+      }
     </style>
   </head>
   <body>
-    
-    
-<!-- <div id="modal" class="modal">
+    <!-- <div id="modal" class="modal">
   <div class="modal__overlay">
     
   </div>
@@ -87,123 +86,143 @@
       </div>
     </div>
 </div> -->
-    
-    
-    
+
     <div class="background-image">
       <img src="img/header-banner.jpg" />
     </div>
     <div class="site-logo">
       <a href="index.html"><img src="img/logo.png" alt="Sherman's Valley Heritage Days Logo" title="Sherman's Valley Heritage Days Logo" /></a>
     </div>
-      <nav>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <!--<li><a href=".html">Brochure</a></li>-->
+        <li><a href="cuisine.html">Country Food</a></li>
+        <li><a href="market.html">Flea Market</a></li>
+        <li><a href="history.html">History</a></li>
+        <!--<li><a href="merchandise.html">Merchandise</a></li>-->
+        <li><a href="contacts.html">Contacts</a></li>
+      </ul>
+    </nav>
+    <section class="container">
+      <div class="row">
+        <div class="col-2 welcome-message">
+          <h2>2021 - The 35th Annual</h2>
+          <h1>Sherman’s Valley Heritage Days</h1>
+          <img src="img/welcome.jpg" alt="Sherman's Valley Heritage Days" title="Sherman's Valley Heritage Days" />
+          <p>
+            Sherman's Valley Heritage Days, Inc. is a non-profit organization which was founded in 1986. Its purpose is to demonstrate and preserve
+            the role of antique farm equipment, vehicles, hand-craftsmanship, and the heritage of the way things were done in the "Good Old Days", and
+            to educate the public about preserving items and practices from the past.
+          </p>
+        </div>
+        <div class="col-1">
+          <div class="date-box">
+            <h2>Dates</h2>
+            <p>Friday - October 8th, 2021</p>
+            <p>8:00 AM - 9:00 PM</p>
+            <p>Saturday - October 9th, 2021</p>
+            <p>7:00 AM - 8:30 PM</p>
+            <p>Sunday - October 10th, 2021</p>
+            <p>7:00 AM - 3:30 PM</p>
+          </div>
+          <div class="cost-box">
+            <h2>Cost</h2>
+            <p>Admission $2.00 per Adult</p>
+            <p>Children under 12, FREE!</p>
+            <span style="width: 100%; display: flex; align-items: center; justify-content: center"
+              ><a class="btn" href="download/Brochure2021.pdf">Download Brochure</a></span
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <h2>Facebook</h2>
+          <div id="facebook-frame">
+            <iframe
+              src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FShermans-Valley-Heritage-Days-Inc-929448090437051&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1143151962402903"
+              width="340"
+              height="500"
+              style="border: none; overflow: hidden"
+              scrolling="no"
+              frameborder="0"
+              allowTransparency="true"
+            ></iframe>
+          </div>
+        </div>
+        <div class="col-1 location-box">
+          <h2>Location</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12165.560881133279!2d-77.50824455047484!3d40.33368882215248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDIwJzExLjYiTiA3N8KwMzAnMDEuOCJX!5e0!3m2!1sen!2sus!4v1470246966884"
+            frameborder="0"
+            style="border: 0"
+            allowfullscreen
+          ></iframe>
+          <address>
+            <strong>Address:</strong><br />
+            532 Picnic Grove Road<br />
+            Blain, PA 17006<br />
+            (for Google Maps and GPS)<br />
+            <a
+              href="https://www.google.com/maps/dir/Harrisburg,+PA/Picnic+Road,+Blain,+PA+17006/@40.3452258,-77.4741188,10z/am=t/data=!4m14!4m13!1m5!1m1!1s0x89c8c116b8079e97:0xbb6e42c8128d46d5!2m2!1d-76.8867008!2d40.2731911!1m5!1m1!1s0x89c93eeed6566b33:0x18e70d3b8670a791!2m2!1d-77.5023363!2d40.3354906!3e0"
+              >Directions</a
+            >
+          </address>
+        </div>
+        <div class="col-1 raffle-box">
+          <h2>Raffle</h2>
+          <img src="img/raffle.jpg" alt="Sherman's Valley Heritage Days Raffle" title="Sherman's Valley Heritage Days Raffle" />
+          <dl>
+            <dt>Tickets:</dt>
+            <dd>$10.00 each</dd>
+            <dt>Prizes:</dt>
+            <dd>Cash raffle only, 250 tickets sold</dd>
+            <dt>Drawing:</dt>
+            <dd>Sunday - October 10th, 2021 @ 3:30 PM</dd>
+            <dt>Need not be present to win</dt>
+            <dt>Kid's Raffle also available</dt>
+          </dl>
+          <h2>36th Annual Show:</h2>
+          <h3 style="display: flex; align-items: center; justify-content: center">October 7-9, 2022</h3>
+        </div>
+      </div>
+    </section>
+    <footer class="site-footer">
+      <div class="row">
+        <div class="col-1">
+          <img src="img/logo.png" alt="Sherman's Valley Heritage Days Logo" title="Sherman's Valley Heritage Days Logo" />
+          <p>
+            Disclaimer: Any copyright or "duplicate" work on this site is coincidental, all photos were approved by SVHD Board at a stated meeting and
+            are the property of SVHD. All dates, times, names, phone numbers or locations are doubled-checked for error free verification. Please
+            report all errors, updates or changes to the president of SVHD as soon as possible. This is a non-profit organization and this site is
+            prepared free of charge. All questions should be directed towards the President of SVHD located on this site.
+          </p>
+        </div>
+        <div class="col-1 plates-footer">
+          <h4>Heritage Days Commerative Plates</h4>
+          <a href="plates.html"><img src="img/plates/plates-2011-min.png" /></a>
+          <a href="plate.html">View More</a>
+        </div>
+        <div class="col-1">
+          <h4>Proceeds from our event is divided among the following organizations:</h4>
           <ul>
-              <li><a href="index.html" class="active">Home</a></li>
-              <!--<li><a href=".html">Brochure</a></li>-->
-              <li><a href="cuisine.html">Country Food</a></li>
-              <li><a href="market.html">Flea Market</a></li>
-              <li><a href="history.html">History</a></li>
-              <!--<li><a href="merchandise.html">Merchandise</a></li>-->
-              <li><a href="contacts.html">Contacts</a></li>
+            <li>Adams Lodge No. 319</li>
+            <li>Blain Ambulance Co.</li>
+            <li>Blain Boy Scout Troop 105</li>
+            <li>Blain Lions Club</li>
+            <li>Blain Minors Baseball team</li>
+            <li>Blain Senior Citizens' Center</li>
+            <li>Blain Volunteer Fire Co.</li>
+            <li>Ladies Auxiliary of the Blain Fire Co.</li>
+            <li>Library of Western Perry County</li>
+            <li>Shermans Valley Heritage Days, Inc.</li>
           </ul>
-      </nav>
-      <section class="container">
-          <div class="row">
-              <div class="col-2 welcome-message">
-                  <h2>2021 - The 35th Annual</h2>
-                  <h1>Sherman’s Valley Heritage Days</h1>
-                  <img src="img/welcome.jpg" alt="Sherman's Valley Heritage Days" title="Sherman's Valley Heritage Days" />
-                  <p>
-                     Sherman's Valley Heritage Days, Inc. is a non-profit organization which was founded in 1986. Its purpose is to demonstrate and preserve the role of antique farm equipment, vehicles, hand-craftsmanship, and the heritage of the way things were done in the "Good Old Days", and to educate the public about preserving items and practices from the past.
-                  </p>
-                  
-              </div>
-              <div class="col-1">
-                  <div class="date-box">
-                      <h2>Dates</h2>
-                      <p>Friday - October 8th, 2021</p>
-                      <p>8:00 AM - 9:00 PM</p>
-                      <p>Saturday - October 9th, 2021</p>
-                      <p>7:00 AM - 8:30 PM</p>
-                      <p>Sunday - October 10th, 2021</p>
-                      <p>7:00 AM - 3:30 PM</p>
-                  </div>
-                  <div class="cost-box">
-                      <h2>Cost</h2>
-                      <p>Admission $2.00 per Adult</p>
-                      <p>Children under 12, FREE!</p>
-                      <span style="width:100%; display:flex; align-items:center; justify-content:center;"><a class="btn" href="download/Brochure2020.pdf">Download Brochure</a></span>
-                  </div>
+        </div>
+      </div>
+    </footer>
 
-                  
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-1">
-                  <h2>Facebook</h2>
-                  <div id="facebook-frame">
-                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FShermans-Valley-Heritage-Days-Inc-929448090437051&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1143151962402903" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>  
-                  </div>      
-              </div>
-              <div class="col-1 location-box">
-                  <h2>Location</h2>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12165.560881133279!2d-77.50824455047484!3d40.33368882215248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDIwJzExLjYiTiA3N8KwMzAnMDEuOCJX!5e0!3m2!1sen!2sus!4v1470246966884" frameborder="0" style="border:0" allowfullscreen></iframe>
-                  <address>
-                      <strong>Address:</strong><br />
-                      532 Picnic Grove Road<br />
-                      Blain, PA 17006<br />
-                      (for Google Maps and GPS)<br />
-                      <a href="https://www.google.com/maps/dir/Harrisburg,+PA/Picnic+Road,+Blain,+PA+17006/@40.3452258,-77.4741188,10z/am=t/data=!4m14!4m13!1m5!1m1!1s0x89c8c116b8079e97:0xbb6e42c8128d46d5!2m2!1d-76.8867008!2d40.2731911!1m5!1m1!1s0x89c93eeed6566b33:0x18e70d3b8670a791!2m2!1d-77.5023363!2d40.3354906!3e0">Directions</a>
-                  </address>
-              </div>
-              <div class="col-1 raffle-box">
-                  <h2>Raffle</h2>
-                  <img src="img/raffle.jpg" alt="Sherman's Valley Heritage Days Raffle" title="Sherman's Valley Heritage Days Raffle" />
-                  <dl>
-                    <dt>Tickets:</dt>
-                    <dd>$10.00 each</dd>
-                    <dt>Prizes:</dt>
-                    <dd>Cash raffle only, 250 tickets sold</dd>
-                    <dt>Drawing:</dt>
-                    <dd>Sunday - October 10th, 2021 @ 3:30 PM</dd>
-                    <dt>Need not be present to win</dt>
-                    <dt>Kid's Raffle also available</dt>
-                  </dl>
-                <h2>36th Annual Show:</h2> 
-                <h3 style="display:flex;align-items:center;justify-content:center;">October 7-9, 2022</h3>
-              </div>
-          </div>
-      </section>
-      <footer class="site-footer">
-         <div class="row">
-           <div class="col-1">
-             <img src="img/logo.png" alt="Sherman's Valley Heritage Days Logo" title="Sherman's Valley Heritage Days Logo" />
-             <p>Disclaimer: Any copyright or "duplicate" work on this site is coincidental, all photos were approved by SVHD Board at a stated meeting and are the property of SVHD. All dates, times, names, phone numbers or locations are doubled-checked for error free verification. Please report all errors, updates or changes to the president of SVHD as soon as possible. This is a non-profit organization and this site is prepared free of charge. All questions should be directed towards the President of SVHD located on this site.</p>
-           </div>
-           <div class="col-1 plates-footer">
-             <h4>Heritage Days Commerative Plates</h4>
-             <a href="plates.html"><img src="img/plates/plates-2011-min.png" /></a>
-             <a href="plate.html">View More</a>
-           </div>
-           <div class="col-1">
-             <h4>Proceeds from our event is divided among the following organizations:</h4>
-             <ul>
-              <li>Adams Lodge No. 319</li>
-              <li>Blain Ambulance Co.</li>
-              <li>Blain Boy Scout Troop 105</li>
-              <li>Blain Lions Club</li>
-              <li>Blain Minors Baseball team</li>
-              <li>Blain Senior Citizens' Center</li>
-              <li>Blain Volunteer Fire Co.</li>
-              <li>Ladies Auxiliary of the Blain Fire Co.</li>
-              <li>Library of Western Perry County</li>
-              <li>Shermans Valley Heritage Days, Inc.</li>
-             </ul>
-           </div>
-         </div>
-      </footer>
-      
-  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js" type="text/javascript"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js" type="text/javascript"></script>
     <!-- <script>
       const modal = document.getElementById("modal");
       const modalOverlay = document.querySelector(".modal__overlay");
